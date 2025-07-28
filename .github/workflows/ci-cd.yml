@@ -33,7 +33,7 @@ jobs:
           terraform_wrapper: false
 
       - name: Terraform Init
-        working-directory: ./terraform/infra
+        working-directory: ./
         run: terraform init
 
       - name: Select production workspace
